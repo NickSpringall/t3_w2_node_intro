@@ -1,0 +1,21 @@
+{
+  "name": "t3_w2_node_intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "someRandomCommand": "echo \" Hello World\"",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "devPromptSync": "nodemon --no-stdin index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
